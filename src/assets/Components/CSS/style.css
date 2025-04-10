@@ -1,0 +1,49 @@
+/* Estilos para el nav */
+.navbar {
+    position: fixed; /* Fija el nav en la parte superior */
+    top: 0; /* Pega el nav a la parte superior */
+    left: 50%; /* Centra el nav horizontalmente */
+    transform: translateX(-50%); /* Ajusta para que quede perfectamente centrado */
+    width: 80%; /* Le da un ancho limitado */
+    background-color: #333; /* Color de fondo oscuro */
+    color: white; /* Color de texto blanco */
+    padding: 15px 0; /* Espaciado arriba y abajo */
+    z-index: 1000; /* Asegura que el nav esté por encima de otros elementos */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
+    border-radius: 10px; /* Bordes redondeados */
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Centra el contenido verticalmente */
+  }
+  
+  .navbar-title {
+    font-size: 22px; /* Tamaño de la fuente del título */
+    font-family: 'Arial', sans-serif; /* Fuente más moderna */
+  }
+  
+  .navbar-links {
+    list-style-type: none; /* Elimina los puntos de lista */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Organiza los elementos en fila */
+  }
+  
+  .navbar-links li {
+    margin-right: 20px; /* Espacio entre los elementos de la lista */
+  }
+  
+  .navbar-links a {
+    color: white; /* Color de los enlaces */
+    text-decoration: none; /* Elimina el subrayado */
+    font-size: 18px; /* Tamaño de los enlaces */
+    font-family: 'Arial', sans-serif; /* Fuente moderna para los enlaces */
+    padding: 5px 10px; /* Espaciado dentro de los enlaces */
+    border-radius: 5px; /* Bordes redondeados en los enlaces */
+    transition: background-color 0.3s ease; /* Transición suave en hover */
+  }
+  
+  .navbar-links a:hover {
+    background-color: #f39c12; /* Fondo amarillo al pasar el ratón */
+    color: #333; /* Cambia el color del texto a oscuro */
+  }
+  
