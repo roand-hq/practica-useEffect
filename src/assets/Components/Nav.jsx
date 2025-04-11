@@ -1,6 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router'; // Importamos Link desde react-router-dom
-import './CSS/style.css'; // Asegúrate de importar el CSS
+import { Link } from 'react-router'; 
+import './CSS/style.css'; 
 
 const Nav = () => {
   return (
