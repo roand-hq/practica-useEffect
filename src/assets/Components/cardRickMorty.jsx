@@ -2,6 +2,7 @@ import React from "react";
 
 // Componente que muestra una card individual de personaje
 const RickAndMortyCard = ({ character }) => {
+    
     return (
         <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white border border-gray-200 m-4">
             <img
